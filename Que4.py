@@ -1,7 +1,6 @@
 # 4.Read a file, split its content into words, and store them in list.
 # i.Print the total number of words.
 # ii.print all unique words.
-
 f = open("data.txt", "r")
 content = f.read()
 f.close()
