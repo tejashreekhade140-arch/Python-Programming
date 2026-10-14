@@ -1,5 +1,4 @@
 # 2. Read all Lines from a file into a list. Print the total number of lines and Display the 2nd and 4th line.
-
 f = open("data.txt", "r")
 lines = f.readlines()
 f.close()
