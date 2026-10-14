@@ -14,3 +14,4 @@ if len(lines) >= 4:
     print("4th line:", lines[3].strip())
 else:
     print("4th line does not exist")
+
