@@ -3,7 +3,8 @@ def countFreq(n, k):
     freq = {}
 
     for digit in str(n):
-        freq[int(digit)] = freq.get(int(digit), 0) + 1
+        digit = int(digit)
+        freq[digit] = freq.get(digit, 0) + 1
 
     result = []
 
@@ -14,8 +15,8 @@ def countFreq(n, k):
     return sorted(result)
 
 
-n = 13464987139
-k = 3
+n = int(input("Enter a number: "))
+k = int(input("Enter minimum frequency: "))
 
 print("Number:", n)
 print("Minimum Frequency:", k)
