@@ -10,7 +10,7 @@ def reverseInteger(x):
     return reverse
 
 
-num = -123
+num = 123
 
 print("Original Number:", num)
 print("Reversed Number:", reverseInteger(num))
