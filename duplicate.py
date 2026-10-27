@@ -9,3 +9,4 @@ for num in numbers:
 
 print("Original List:", numbers)
 print("Duplicate Numbers:", duplicates)
+
