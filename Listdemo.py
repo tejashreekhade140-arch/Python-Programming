@@ -23,3 +23,29 @@ print(colors)
 print("Before remove:",colors)
 colors.remove("red")
 print(colors)
+
+#pop removes last item
+last_color=colors.pop()
+print(last_color)
+
+#adding of items at last and at specific location
+#at last
+colors=["red","blue"]
+colors.append("Black")
+print(colors)
+
+#At specific position
+colors.insert(2,"Pink")
+print(colors)
+
+#function performed on list
+#length
+numbers=[1,2,9,4,5,3,6,7,8]
+print(len(numbers))
+
+#sum
+print(sum(numbers))
+
+#sorting
+print(sorted(numbers))
+print(sorted(numbers,reverse=True))
