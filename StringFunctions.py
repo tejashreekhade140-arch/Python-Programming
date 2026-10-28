@@ -40,3 +40,37 @@ print("Simple Split",text.split())
 # 11. join a list of strings with a separate 
 words=["python","is","fun"]
 print(" ".join(words))
+
+# 12.check if string is alphanumeric,alphabetic or numeric
+print(text.isalnum())
+print("abc123".isalnum())
+print(text.isalpha())
+print("abc".isalpha())
+print("123".isdigit())
+
+# 13. Swap case (Uppercase to Lowercase and vice versa)
+print(text.swapcase())
+print("Hello World".swapcase())
+
+#14. Partition a string into 3 parts (before, separator, after)
+print(text.partition("come"))
+print("Hello".partition("ll"))
+
+# 15.Expand tabs to spaces
+tab_text="hello\tpython"
+print(tab_text.expandtabs(tabsize=4))
+
+# 16.Check is string contains only whitespace
+print("  ".isspace())
+
+# 17. Zero-fill on the left
+print("42".zfill(5))
+
+# 18. Encode string to bytes
+print(text.encode())
+print(" hello ".encode())
+
+# 19. sorting
+print(sorted(text))
+print(sorted("Tejashree"))
+
