@@ -195,3 +195,29 @@ def fibonacci():
 gen=fibonacci()
 for i in range(10):
     print(next(gen),end=" ")
+
+# Genrator Using Yield
+def generator(n):
+    count=1
+    while count<=n:
+        yield count
+        count+=1
+print(list(generator(5)))
+
+#find maximum using *agrs
+def mac(*n):
+    if len(n)==0:
+        return None
+    max=n[0]
+    for i in n:
+        if n > max:
+            max=n
+    return max
+print(max(3,12,32,9,21))
+
+# use **kwargs
+def student(**details):
+    print("Name:",details["Name"])
+    print("Age:",details["Age"])
+    print("All details:",details)
+student(Name="Tejashree",Age=22,city="pune")
