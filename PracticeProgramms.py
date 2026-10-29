@@ -153,3 +153,35 @@ def count_prime(n):
             count+=1
     return count
 print(count_prime(11))
+
+#GCD of two Values
+def gcd(a,b):
+    while b!=0:
+        a,b=b,a%b
+    return a
+print(gcd(8,9))
+
+#LCM of two Numbers
+def lcm(a,b):
+    if a==0 or b==0:
+        return 0
+    return abs(a*b)//gcd(a,b)
+print(lcm(2,3))
+
+#find all divisors of a number
+def divisors(n):
+    result=[]
+    for i in range(1, n+1):
+        if n % i==0:
+            result.append(i)
+    return result
+print(divisors(10))
+
+#largest odd number in a string
+def largest_odd(n):
+    n=str(n)
+    for i in range(len(n)-1,-1,-1):
+        if int(n[i]) % 2 !=0:
+            return n[:i+1]
+    return ""
+print(largest_odd(95476))
