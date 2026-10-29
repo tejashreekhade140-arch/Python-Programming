@@ -137,16 +137,19 @@ def prime(n):
 print(prime(11))
 print(prime(2))
 
-"""
+
 #Count of Prime Numbers
 def count_prime(n):
     count=0
-    if n>0:
-        is_prime=True
+    
+        
     for i in range(2,n+1):
-        if n%i==0:
-            is_prime=False
+        is_prime=True
+        for j in range(2,i):
+            if i%j==0:
+                is_prime=False
+                break
+        if is_prime:
             count+=1
     return count
-print(count_prime(7))
-"""
+print(count_prime(11))
