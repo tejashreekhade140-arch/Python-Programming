@@ -185,3 +185,13 @@ def largest_odd(n):
             return n[:i+1]
     return ""
 print(largest_odd(95476))
+
+#fibonacci Series using a generator
+def fibonacci():
+    a,b=0,1
+    while True:
+        yield a
+        a,b=b,a+b
+gen=fibonacci()
+for i in range(10):
+    print(next(gen),end=" ")
