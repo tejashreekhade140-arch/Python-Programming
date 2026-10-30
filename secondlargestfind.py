@@ -16,3 +16,4 @@ if second_largest == float('-inf'):
 else:
     print("Largest Number:", largest)
     print("Second Largest Number:", second_largest)
+
