@@ -1,3 +1,5 @@
+#Missing element in a List
+
 numbers = [1, 2, 3, 5, 6, 7]
 
 n = len(numbers) + 1
