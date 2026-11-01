@@ -27,8 +27,7 @@ print("Element Frequency:")
 for num, count in frequency.items():
     print(num, ":", count)
 
-#
-
+#first non repeting character 
 text = input("Enter a string: ")
 
 for char in text:
@@ -37,5 +36,23 @@ for char in text:
         break
 else:
     print("No non-repeating character found")
+
+# Move All zeros to end
+
+numbers = [0, 5, 0, 3, 8, 0, 2]
+
+result = []
+
+for num in numbers:
+    if num != 0:
+        result.append(num)
+
+zero_count = numbers.count(0)
+
+for i in range(zero_count):
+    result.append(0)
+
+print("Original List:", numbers)
+print("Updated List:", result)
 
 
