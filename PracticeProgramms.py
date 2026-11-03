@@ -1,4 +1,4 @@
-"""
+
 #Frequency Count
 text=input("Enter String:")
 freq={}
@@ -11,6 +11,7 @@ print(freq)
 
 #Find Duplicate elements in a list
 number=[10,20,30,10,40,40]
+
 dup=[]
 for i in number:
     if number.count(i)>1 and i not in dup:
@@ -81,7 +82,7 @@ def is_prime(n):
 
 print(is_prime(7))
 print(is_prime(10))
-"""
+
 #count odd digits
 def Odd_Digits(n):
     count=0
