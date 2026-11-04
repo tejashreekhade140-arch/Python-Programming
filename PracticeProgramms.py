@@ -1,4 +1,4 @@
-'''
+
 #Frequency Count
 text=input("Enter String:")
 freq={}
@@ -235,7 +235,7 @@ if sorted(str1) == sorted(str2):
     print("Strings are Anagrams")
 else:
     print("Strings are Not Anagrams")
-'''
+
 #Find Smallest Number in a List
 
 numbers = [25, 10, 45, 5, 80, 30]
