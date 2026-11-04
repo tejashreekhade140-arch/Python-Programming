@@ -1,4 +1,4 @@
-
+'''
 #Frequency Count
 text=input("Enter String:")
 freq={}
@@ -222,7 +222,7 @@ def student(**details):
     print("Age:",details["Age"])
     print("All details:",details)
 student(Name="Tejashree",Age=22,city="pune")
-
+'''
 #Check Whether Two Strings are Anagrams
 
 str1 = input("Enter first string: ")
