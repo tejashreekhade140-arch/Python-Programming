@@ -1,4 +1,4 @@
-'''
+
 #Frequency Count
 text=input("Enter String:")
 freq={}
@@ -253,7 +253,7 @@ for num in numbers:
 
 print("Largest Number:", largest)
 print("Smallest Number:", smallest)
-'''
+
 #Find the Pair of NUmbers
 
 numbers = [2, 7, 15, 20, 25, 30]
