@@ -10,3 +10,14 @@ def sequence(n):
 
 
 print(sequence(11))
+
+#2.Generate number excluding multiples of 7
+def number(n):
+    total=[]
+    for i in range (n,51):
+        if i % 7 == 0:
+            continue
+        else:
+            total.append(i)
+    return total
+print(number(11))
