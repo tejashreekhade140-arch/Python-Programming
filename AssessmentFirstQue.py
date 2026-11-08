@@ -39,3 +39,21 @@ def largest(n):
 
 
 print(largest(152))
+
+#4. Count Positive ,Negative and zero
+
+def count(numbers):
+    pos = neg = zero = 0
+
+    for i in numbers:
+        if i > 0:
+            pos += 1
+        elif i < 0:
+            neg += 1
+        else:
+            zero += 1
+
+    return pos, neg, zero
+
+
+print(count([10, -5, 0, 20, -2]))
