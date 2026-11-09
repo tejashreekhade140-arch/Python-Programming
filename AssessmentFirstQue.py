@@ -57,3 +57,18 @@ def count(numbers):
 
 
 print(count([10, -5, 0, 20, -2]))
+
+#5.Count elements using a condition
+
+def freq(*n):
+    count = 0
+
+    for i in n:
+        if i > count:
+            count += 1
+
+    return count
+
+
+print(freq(2, 3, 4, 5))
+
