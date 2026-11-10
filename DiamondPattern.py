@@ -21,3 +21,13 @@ def numberTrianglePattern(n):
 
 
 numberTrianglePattern(3)
+
+#Multiplication Table
+
+def multiplicationTable(n, limit):
+    for i in range(1, limit + 1):
+        print(n * i)
+
+
+multiplicationTable(3, 5)
+
