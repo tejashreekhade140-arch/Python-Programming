@@ -42,3 +42,15 @@ def rightTrianglePattern(n):
 
 rightTrianglePattern(3)
 
+#invertTriangle 
+
+def invertedTriangle(n):
+    for i in range(n, 0, -1):
+        for j in range(i):
+            print("*", end="")
+        print()
+
+
+invertedTriangle(5)
+
+
