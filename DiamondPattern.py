@@ -53,4 +53,16 @@ def invertedTriangle(n):
 
 invertedTriangle(5)
 
+#Centered Pyramid Pattern
+
+def centeredPyramidPattern(n):
+    for i in range(1, n + 1):
+        spaces = " " * (n - i)
+        stars = "*" * (2 * i - 1)
+
+        print(spaces + stars)
+
+
+centeredPyramidPattern(4)
+
 
