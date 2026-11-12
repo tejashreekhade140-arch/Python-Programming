@@ -112,6 +112,5 @@ def hollowPyramidPattern(n):
         else:
             print(" " * (n-i) + "*" + " " * (2*i-2) + "*")
 
-
 hollowPyramidPattern(4)
 
