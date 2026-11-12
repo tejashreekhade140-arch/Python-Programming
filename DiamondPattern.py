@@ -80,4 +80,22 @@ def floydsTriangle(n):
 
 floydsTriangle(4)
 
+#Find Duplicate Number
+
+def findDuplicate(numbers):
+    seen = set()
+
+    for num in numbers:
+        if num in seen:
+            return num
+
+        seen.add(num)
+
+    return -1
+
+
+numbers = [1, 3, 4, 2, 2]
+
+print("Duplicate Number:", findDuplicate(numbers))
+
 
