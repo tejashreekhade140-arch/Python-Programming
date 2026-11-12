@@ -98,4 +98,20 @@ numbers = [1, 3, 4, 2, 2]
 
 print("Duplicate Number:", findDuplicate(numbers))
 
+#Hollow Pyramid Pattern
+
+def hollowPyramidPattern(n):
+    for i in range(1, n + 1):
+
+        if i == 1:
+            print(" " * (n-1) + "*")
+
+        elif i == n:
+            print("*" * (2*n-1))
+
+        else:
+            print(" " * (n-i) + "*" + " " * (2*i-2) + "*")
+
+
+hollowPyramidPattern(4)
 
