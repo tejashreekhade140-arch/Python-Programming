@@ -128,3 +128,22 @@ def butterflyPattern(n):
 
 butterflyPattern(4)
 
+#armstrong number in range
+
+def armstrongInRange(start, end):
+    for num in range(start, end + 1):
+        original = num
+        length = len(str(num))
+        total = 0
+
+        while num > 0:
+            digit = num % 10
+            total += digit ** length
+            num //= 10
+
+        if total == original:
+            print(original)
+
+
+armstrongInRange(100, 200)
+
