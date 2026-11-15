@@ -164,3 +164,21 @@ def primeFactors(n):
 
 
 primeFactors(50)
+
+#Check Whether a Number Is a Perfect Number
+
+def perfectNumber(n):
+    total = 0
+
+    for i in range(1, n):
+        if n % i == 0:
+            total += i
+
+    if total == n:
+        print(n, "is a Perfect Number")
+    else:
+        print(n, "is Not a Perfect Number")
+
+
+perfectNumber(28)
+
